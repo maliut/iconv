@@ -1,0 +1,1 @@
+for /r  . %%i in (*.csv) do iconv -f gb2312 -t UTF-8 %%i > %%~ni-utf8.csv
